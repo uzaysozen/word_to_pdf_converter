@@ -1,0 +1,7 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: converter-configmap
+data:
+  PDF_QUEUE: "pdf"
+  WORD_QUEUE: "word"
