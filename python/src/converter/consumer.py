@@ -4,7 +4,7 @@ import gridfs
 from convert import to_pdf
 
 def main():
-    client = MongoClient("host.minikube.internal", 27017)
+    client = MongoClient("host.docker.internal", 27017)
     db_word_files = client.word_files
     db_pdfs = client.pdfs
     # gridfs
